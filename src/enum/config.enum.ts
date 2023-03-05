@@ -1,4 +1,4 @@
 export enum ConfigEnum {
-  DB_NAME = 'DB_NAME',
+  DB = 'DB',
   DB_HOST = 'DB_HOST',
 }
