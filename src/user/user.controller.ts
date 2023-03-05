@@ -11,7 +11,7 @@ export class UserController {
 
   @Get()
   getUsers(): any {
-    console.log(this.configService.get('db'));
+    console.log(this.configService.get('DB_PORT'));
     return this.userService.getUsers();
   }
 
